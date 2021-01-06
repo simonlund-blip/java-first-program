@@ -53,7 +53,7 @@ public class Finance
         }
 
         boolean isValidCommand = validateCommandArguments(args);
-        if (!isValidCommand == true) {
+        if (!isValidCommand) {
             commandsToUsage.get(args[0]);
             return;
         }
